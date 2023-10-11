@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1772111131063937"
+     crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bishal Adhikari Portfolio Website</title>
@@ -11,8 +13,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1772111131063937"
-     crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="scroll-up-btn">
@@ -69,21 +69,17 @@
     </section>
 
     <!-- Example: Placing an ad within a div -->
-    <div class="ad-container">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1772111131063937"
-        crossorigin="anonymous"></script>
-        <!-- First Ads -->
-        <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-1772111131063937"
-            data-ad-slot="3806114184"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </div>
-
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1772111131063937" crossorigin="anonymous"></script>
+<!-- First Ads -->
+<ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-1772111131063937"
+    data-ad-slot="3806114184"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
     <!-- services section start -->
     <section class="services" id="services">
@@ -211,7 +207,7 @@
         </div>
     </section>
 
-    <!-- contact section start -->
+<!-- contact section start -->
 <section class="contact" id="contact">
     <div class="max-width">
         <h2 class="title">Contact me</h2>
@@ -245,7 +241,9 @@
             </div>
             <div class="column right">
                 <div class="text">Message me</div>
-                <form action="send_email.php" method="POST">
+
+                <!-- Move the form and button here -->
+                <form id="contact-form" action="send_message.php" method="post">
                     <div class="fields">
                         <div class="field name">
                             <input type="text" name="name" placeholder="Name" required>
@@ -261,7 +259,7 @@
                         <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                     </div>
                     <div class="button-area">
-                        <button type="submit">Send message</button>
+                        <button id="submit-button" type="submit">Send message</button>
                     </div>
                 </form>
             </div>
