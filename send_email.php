@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = $_POST["subject"];
     $message = $_POST["message"];
 
-    $toEmail = "Online Sewa Test @123"; // Replace with your Gmail address
+    $toEmail = "onlinesewatest@gmail.com"; // Replace with your Gmail address
     $smtpUsername = "onlinesewatest@gmail.com"; // Your Gmail username
     $smtpPassword = "Online Sewa Test @123"; // Your Gmail password
 
