@@ -133,6 +133,18 @@ section .title::after{
     cursor: pointer;
     display: none;
 }
+.navbar .media-icons a{
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0 10px;
+  }
+  nav.sticky .media-icons a{
+    color: #ffffff;
+  }
+  .navbar.sticky .media-icons a:hover{
+    color: #ffea00;
+}
+
 .scroll-up-btn{
     position: fixed;
     height: 45px;
